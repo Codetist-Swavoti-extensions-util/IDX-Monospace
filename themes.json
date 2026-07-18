@@ -1,0 +1,61 @@
+{
+  "name": "IDX Monospace Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1A1D24",
+    "editor.foreground": "#C5C6C9",
+    "editor.lineHighlightBackground": "#23262E",
+    "editorCursor.foreground": "#8AB4F8",
+    
+    "sideBar.background": "#14161C",
+    "sideBar.foreground": "#9AA0A6",
+    "sideBar.border": "#282B33",
+    
+    "activityBar.background": "#14161C",
+    "activityBar.foreground": "#8AB4F8",
+    
+    "tab.activeBackground": "#1A1D24",
+    "tab.inactiveBackground": "#14161C",
+    "tab.activeBorderTop": "#8AB4F8"
+  },
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage", "modifier"],
+      "settings": {
+        "foreground": "#C586C0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string", "string.template"],
+      "settings": {
+        "foreground": "#81C995"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#8AB4F8"
+      }
+    },
+    {
+      "scope": ["variable", "variable.parameter"],
+      "settings": {
+        "foreground": "#9AA0A6"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#F28B82"
+      }
+    },
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#5F6368",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}
