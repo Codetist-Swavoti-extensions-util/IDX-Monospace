@@ -1,0 +1,17 @@
+{
+  "name": "swavoti-idx-monospace",
+  "displayName": "IDX Monospace Dark",
+  "version": "1.1.0",
+  "publisher": "Codetist",
+  "type": "theme",
+  "contributes": {
+    "themes": [
+      {
+        "id": "idx-monospace-dark",
+        "label": "IDX Monospace Dark",
+        "type": "dark",
+        "path": "./theme.json"
+      }
+    ]
+  }
+}
